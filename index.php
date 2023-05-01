@@ -1,8 +1,8 @@
 <?php include("header.php");?>
 <?php include("dbconn.php");?>
  <div class="d-flex justify-content-between my-4">
- <h2>all students</h2>
-<button class="btn btn-primary p-2 mb-2"  data-bs-toggle="modal" data-bs-target="#exampleModal" >ADD STUDENT</button>
+ <h2 class="text-success">all Employees</h2>
+<button class="btn btn-primary p-2 mb-2"  data-bs-toggle="modal" data-bs-target="#exampleModal" >ADD EMPLOYEE</button>
  </div>
      <table class="table table-hover table-bordered table-striped" >
         <thead>
@@ -50,7 +50,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel"> Add new student</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel"> Add new Employee</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">

@@ -8,5 +8,5 @@
     <title>home page</title>
 </head>
 <body>
-    <h1 class="text-center bg-primary-subtle p-2">students</h1>
+    <h1 class="text-center text-white bg-primary p-2">workers</h1>
     <div class="container">
